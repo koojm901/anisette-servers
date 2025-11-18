@@ -3,7 +3,6 @@ import os
 
 app = Flask(__name__)
 
-# SideStore가 서버 상태를 확인할 때 응답하는 경로입니다.
 @app.route('/', methods=['GET'])
 def home():
     return jsonify({
