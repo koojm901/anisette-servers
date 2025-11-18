@@ -1,1 +1,1 @@
-web: python3 -m gunicorn --bind 0.0.0.0:$PORT anisette:app --chdir ./
+web: gunicorn --bind 0.0.0.0:$PORT anisette:app --chdir ./
